@@ -54,6 +54,21 @@ public class Basics {
 //1 2 3 4 5
 		
 		
+		StringBuffer sb = new StringBuffer("NEHA");
+		System.out.println(sb.reverse());
+		
+		
+		String input = "EFGH";
+		StringBuilder input1 = new StringBuilder();
+		input1=input1.append(input);
+		input1 = input1.reverse();
+		
+		for(int i=0; i<input1.length(); i++)
+		{
+			System.out.print(input1.charAt(i));
+		}
+		
+		
 		for(int i = 5; i>=1; i--)
 		{
 			for(int j = i; j>=1; j--)
